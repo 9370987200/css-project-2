@@ -70,6 +70,7 @@ body{
     margin-top: 5px;
     flex-wrap: wrap;
 
+
 }
 #card-main3{
     display: flex;
@@ -176,4 +177,22 @@ body{
 #popup-button:hover{
     color: whitesmoke;
     background-color: blueviolet;
+}
+@media only screen and (max-width: 480px) and (min-width: 320px){
+    #card-main {
+
+flex-direction: column;
+    }
+    #back3 {
+        position: relative;
+        left:42px ;
+    }
+    #fafa-plus3 {
+       position: relative;
+        left: 71px;
+    }
+    #fafa-task3 {
+        position: relative;
+        left: 68px;
+    }
 }
