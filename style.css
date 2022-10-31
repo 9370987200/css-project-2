@@ -214,73 +214,17 @@ body{
         width: 412px;
         
     }
-}
-@media only screen and (max-width: 1000px) and (min-width: 480px){
-    #card-main {
-
- flex-direction: column;
- margin-left: initial;
-    }
-    #fafa-add {
-        height: 50px;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 153px;
+    #card-main3 {
+       margin: 0px;
     }
     #popup {
-        width: 412px;
-       
-        top: 40%;
+        width: 392px;
+        margin-left: 20px;
+        
     }
     #popup-text {
-        width: 412px;
-        
+        width: 366px;
     }
-    #fafa-add {
-        height: 50px;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 153px;
+    #fafa-task {
+        visibility: hidden;
     }
-    #back3 {
-        position: relative;
-        left: 90px;
-    }
-    #fafa-plus3 {
-        margin-right: 10px;
-        position: relative;
-        left: 133px;
-    }
-    #fafa-task3 {
-        position: relative;
-        left: 127px;
-        font-size: 20px;
-        color: #424242;
-    }
-}
-@media only screen and (max-width: 1500px) and (min-width: 1000px){
-    #card-main {
-
- flex-direction: column;
-    }
-    #fafa-add {
-        
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 153px;
-    }
-    #back3 {
-        position: relative;
-        left: 430px;
-    }
-    #fafa-plus3 {
-       
-        position: relative;
-        left: 475px;
-    }
-    #fafa-task3 {
-        position: relative;
-        left: 475px;
-       
-    }
-}
