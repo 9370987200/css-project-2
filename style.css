@@ -231,6 +231,21 @@ body{
         visibility: hidden;
     }
 }
-@media only screen and (max-width: 480px) and (min-width: 320px){
-
+@media only screen and (max-width: 1000px) and (min-width: 480px){
+    #popup {
+       left: 10%;
+    }
+    #back3 {
+       left: 249px;
+    }
+    #fafa-plus3 {
+       
+        left: 335px;
+    }
+    #fafa-task3 {
+       
+        left: 325px;
+       
+    }
+   
 }
